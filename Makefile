@@ -4,7 +4,7 @@
 
 install:
 	go get
-	go build main.go
+	go build
 	./dokku-daemon install
 
 ci-dependencies: shellcheck bats
