@@ -11,7 +11,7 @@ env:
 before_install:
   - sudo -E make setup-travis
 install:
-  - sudo - E env "PATH=$PATH" make ci-dependencies install
+  - sudo -E env "PATH=$PATH" make ci-dependencies install
   - sleep 5
 script:
   - make test
