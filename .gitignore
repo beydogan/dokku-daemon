@@ -1,2 +1,4 @@
 *.swp
 .vagrant/
+dokku-daemon
+src/

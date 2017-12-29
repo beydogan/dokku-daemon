@@ -1,6 +1,6 @@
 sudo: required
 dist: trusty
-language: bash
+language: go
 env:
   global:
     - DOKKU_LOCK_PATH=/var/lock/dokku-daemon/dokku-daemon.lock
